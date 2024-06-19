@@ -1,4 +1,4 @@
-const stripe = require("stripe")("sk_test_51PEq1nSI8HbcvufsV8xyHdYuBy0qQ5eoomdQaBpAIyjJszi2S3hDIN0rOFsVwJFDQV7gvDHidvFiOMJZCWiKj1mc00f8vdtN1N")
+const stripe = require("stripe")("your secret key" )
 
 const paycontroller= async (req,res)=>{
 
